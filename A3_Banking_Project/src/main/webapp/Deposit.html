@@ -13,7 +13,13 @@
 		<button type="submit">Deposit</button>
 		<button type="reset">Cancel</button>
 
-		<a href="Accounthome.html"><button>Back</button></a>
+		<a href="Accounthome.html" onclick="goBack()"><button>Back</button></a>
+
+		<script>
+			function goBack() {
+				window.location.href = "Accounthome.html"; // Redirect to AccountHome page
+			}
+		</script>
 
 	</form>
 </body>
